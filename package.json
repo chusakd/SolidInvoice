@@ -17,6 +17,7 @@
     "homepage": "https://solidinvoice.co",
     "scripts": {
         "dev": "encore dev",
+        "start": "encore dev-server --http",
         "dev-server": "encore dev-server --https",
         "build": "encore production",
         "lint:js": "eslint src",
