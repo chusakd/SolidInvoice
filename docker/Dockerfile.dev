@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-buster as base
+FROM php:fpm-bullseye as base
 
 ENV TIMEZONE Asia/Bangkok
 ENV TERM xterm
